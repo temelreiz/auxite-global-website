@@ -1,0 +1,26 @@
+# Auxite Global — Institutional Infrastructure for Digital Precious Metals
+# https://auxiteglobal.com
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://auxiteglobal.com/sitemap.xml
+
+# Disallow internal routes
+Disallow: /api/
+Disallow: /_next/
+Disallow: /_vercel/
+
+# Crawl-delay for politeness
+Crawl-delay: 1
+
+# Googlebot specific
+User-agent: Googlebot
+Allow: /
+Sitemap: https://auxiteglobal.com/sitemap.xml
+
+# Bingbot
+User-agent: Bingbot
+Allow: /
+Sitemap: https://auxiteglobal.com/sitemap.xml
