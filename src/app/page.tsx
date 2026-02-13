@@ -209,7 +209,7 @@ export default function HomePage() {
               <div className="flex items-start justify-between mb-4">
                 <div>
                   <div className="text-xs tracking-[0.15em] uppercase text-gold mb-2">
-                    Digital Asset Infrastructure
+                    Governance & Platform Development
                   </div>
                   <h3 className="text-h4 font-display text-text-primary">
                     Aurum Ledger Ltd.
@@ -219,11 +219,11 @@ export default function HomePage() {
                 <span className="text-2xl">🇭🇰</span>
               </div>
               <p className="text-text-secondary mb-4">
-                Primary operating entity responsible for infrastructure development,
-                allocation systems, and ledger architecture.
+                Governance oversight, strategic direction, and digital infrastructure
+                development supporting group operations.
               </p>
               <p className="text-sm text-text-muted leading-relaxed">
-                Aurum Ledger designs and maintains the technological backbone enabling
+                Aurum Ledger provides governance and develops the technological backbone enabling
                 verifiable ownership, structured allocation, and lifecycle transparency.
               </p>
             </div>
@@ -233,12 +233,12 @@ export default function HomePage() {
               <div className="flex items-start justify-between mb-4">
                 <div>
                   <div className="text-xs tracking-[0.15em] uppercase text-gold mb-2">
-                    Physical Metals Operations
+                    Operations & Custody
                   </div>
                   <h3 className="text-h4 font-display text-text-primary">
-                    Auxite Precious Metals Trading LLC
+                    Auxite Precious Metals LLC
                   </h3>
-                  <p className="text-sm text-text-muted mt-1">Dubai, UAE</p>
+                  <p className="text-sm text-text-muted mt-1">Meydan Free Zone, Dubai</p>
                 </div>
                 <span className="text-2xl">🇦🇪</span>
               </div>
@@ -264,7 +264,7 @@ export default function HomePage() {
               <div className="flex items-start justify-between mb-4">
                 <div>
                   <div className="text-xs tracking-[0.15em] uppercase text-gold mb-2">
-                    Regional Operations
+                    Strategic Direction
                   </div>
                   <h3 className="text-h4 font-display text-text-primary">
                     Auxite Kıymetli Metaller Ticaret A.Ş.
@@ -274,8 +274,8 @@ export default function HomePage() {
                 <span className="text-2xl">🇹🇷</span>
               </div>
               <p className="text-text-secondary mb-4">
-                Regional metals trading and client servicing entity supporting allocation
-                activity across key growth markets.
+                Strategic direction, policy coordination, and group oversight
+                across key growth markets.
               </p>
               <p className="text-sm text-text-muted leading-relaxed">
                 Operates within one of the world's most historically significant precious
@@ -436,11 +436,11 @@ export default function HomePage() {
                 </div>
                 <h3 className="text-xl font-display text-gold mb-2">Hong Kong</h3>
                 <p className="text-xs tracking-[0.15em] uppercase text-text-muted mb-4">
-                  Digital Asset Infrastructure
+                  Governance & Platform Development
                 </p>
                 <div className="border-t border-border pt-4 mt-4">
                   <p className="text-sm text-text-secondary font-medium">Aurum Ledger Ltd.</p>
-                  <p className="text-xs text-text-faint mt-1">Est. 2023</p>
+                  <p className="text-xs text-text-faint mt-1">Est. 2025</p>
                 </div>
               </div>
 
@@ -451,11 +451,11 @@ export default function HomePage() {
                 </div>
                 <h3 className="text-xl font-display text-gold mb-2">Dubai</h3>
                 <p className="text-xs tracking-[0.15em] uppercase text-text-muted mb-4">
-                  Physical Metals Operations
+                  Operations & Custody
                 </p>
                 <div className="border-t border-border pt-4 mt-4">
-                  <p className="text-sm text-text-secondary font-medium">Auxite Precious Metals Trading LLC</p>
-                  <p className="text-xs text-text-faint mt-1">Est. 2023</p>
+                  <p className="text-sm text-text-secondary font-medium">Auxite Precious Metals LLC</p>
+                  <p className="text-xs text-text-faint mt-1">Est. 2025</p>
                 </div>
               </div>
 
@@ -466,7 +466,7 @@ export default function HomePage() {
                 </div>
                 <h3 className="text-xl font-display text-gold mb-2">Istanbul</h3>
                 <p className="text-xs tracking-[0.15em] uppercase text-text-muted mb-4">
-                  Regional Operations
+                  Strategic Direction
                 </p>
                 <div className="border-t border-border pt-4 mt-4">
                   <p className="text-sm text-text-secondary font-medium">Auxite Kıymetli Metaller Ticaret A.Ş.</p>

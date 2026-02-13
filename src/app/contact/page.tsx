@@ -199,7 +199,7 @@ export default function ContactPage() {
                       Hong Kong
                     </p>
                     <p className="text-sm text-text-muted">
-                      Auxite Holdings Limited<br />
+                      Aurum Ledger Ltd.<br />
                       Central, Hong Kong SAR
                     </p>
                   </div>
@@ -209,8 +209,8 @@ export default function ContactPage() {
                       Dubai
                     </p>
                     <p className="text-sm text-text-muted">
-                      Auxite DMCC<br />
-                      Dubai Multi Commodities Centre<br />
+                      Auxite Precious Metals LLC<br />
+                      Meydan Free Zone<br />
                       Dubai, UAE
                     </p>
                   </div>
@@ -220,7 +220,7 @@ export default function ContactPage() {
                       Istanbul
                     </p>
                     <p className="text-sm text-text-muted">
-                      Auxite Teknoloji A.Ş.<br />
+                      Auxite Kıymetli Metaller Ticaret A.Ş.<br />
                       Istanbul, Türkiye
                     </p>
                   </div>

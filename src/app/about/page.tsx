@@ -194,54 +194,55 @@ export default function AboutPage() {
               <div className="flex gap-6">
                 <div className="flex flex-col items-center">
                   <div className="w-12 h-12 rounded-full bg-gold/10 border border-gold/30 flex items-center justify-center">
-                    <span className="text-gold font-display text-sm font-semibold">2023</span>
-                  </div>
-                  <div className="w-px h-full bg-border"></div>
-                </div>
-                <div className="pb-8">
-                  <h3 className="text-lg font-display text-text-primary mb-2">
-                    Foundation
-                  </h3>
-                  <p className="text-text-muted">
-                    Establishment of Auxite Holdings Limited in Hong Kong as the
-                    group governance entity. Initial framework development for
-                    multi-entity architecture.
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex gap-6">
-                <div className="flex flex-col items-center">
-                  <div className="w-12 h-12 rounded-full bg-gold/10 border border-gold/30 flex items-center justify-center">
-                    <span className="text-gold font-display text-sm font-semibold">2023</span>
-                  </div>
-                  <div className="w-px h-full bg-border"></div>
-                </div>
-                <div className="pb-8">
-                  <h3 className="text-lg font-display text-text-primary mb-2">
-                    Operations Launch
-                  </h3>
-                  <p className="text-text-muted">
-                    Establishment of Auxite DMCC in Dubai Multi Commodities Centre.
-                    Custody infrastructure development and vaulting partnerships.
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex gap-6">
-                <div className="flex flex-col items-center">
-                  <div className="w-12 h-12 rounded-full bg-gold/10 border border-gold/30 flex items-center justify-center">
                     <span className="text-gold font-display text-sm font-semibold">2024</span>
                   </div>
                   <div className="w-px h-full bg-border"></div>
                 </div>
                 <div className="pb-8">
                   <h3 className="text-lg font-display text-text-primary mb-2">
-                    Technology Development
+                    Strategic Foundation
                   </h3>
                   <p className="text-text-muted">
-                    Establishment of Auxite Teknoloji A.Ş. in Istanbul.
-                    Platform development and security infrastructure deployment.
+                    Establishment of Auxite Kıymetli Metaller Ticaret A.Ş. in Istanbul.
+                    Strategic direction, policy coordination, and group oversight
+                    within one of the world's most historically significant precious metals corridors.
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex gap-6">
+                <div className="flex flex-col items-center">
+                  <div className="w-12 h-12 rounded-full bg-gold/10 border border-gold/30 flex items-center justify-center">
+                    <span className="text-gold font-display text-sm font-semibold">2025</span>
+                  </div>
+                  <div className="w-px h-full bg-border"></div>
+                </div>
+                <div className="pb-8">
+                  <h3 className="text-lg font-display text-text-primary mb-2">
+                    Governance & Platform Development
+                  </h3>
+                  <p className="text-text-muted">
+                    Establishment of Aurum Ledger Ltd. in Hong Kong as the
+                    governance and platform development entity. Digital infrastructure
+                    and security architecture deployment.
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex gap-6">
+                <div className="flex flex-col items-center">
+                  <div className="w-12 h-12 rounded-full bg-gold/10 border border-gold/30 flex items-center justify-center">
+                    <span className="text-gold font-display text-sm font-semibold">2025</span>
+                  </div>
+                  <div className="w-px h-full bg-border"></div>
+                </div>
+                <div className="pb-8">
+                  <h3 className="text-lg font-display text-text-primary mb-2">
+                    Operations & Custody
+                  </h3>
+                  <p className="text-text-muted">
+                    Establishment of Auxite Precious Metals LLC in Meydan Free Zone, Dubai.
+                    Custody infrastructure development and vaulting partnerships.
                   </p>
                 </div>
               </div>

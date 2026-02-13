@@ -269,42 +269,42 @@ export default function MultiJurisdictionArticle() {
                   <div className="bg-midnight-50 border border-border rounded-sm p-6">
                     <div className="flex items-center justify-between mb-2">
                       <h4 className="text-lg font-display text-text-primary">
-                        Auxite Holdings Limited
+                        Aurum Ledger Ltd.
                       </h4>
                       <span className="px-3 py-1 bg-gold/10 border border-gold/30 text-xs text-gold rounded-sm">
                         Hong Kong
                       </span>
                     </div>
                     <p className="text-sm text-text-muted">
-                      Operational oversight within one of the world's leading financial hubs.
+                      Governance and platform development within one of the world's leading financial hubs.
                     </p>
                   </div>
 
                   <div className="bg-midnight-50 border border-border rounded-sm p-6">
                     <div className="flex items-center justify-between mb-2">
                       <h4 className="text-lg font-display text-text-primary">
-                        Auxite DMCC
+                        Auxite Precious Metals LLC
                       </h4>
                       <span className="px-3 py-1 bg-gold/10 border border-gold/30 text-xs text-gold rounded-sm">
                         Dubai
                       </span>
                     </div>
                     <p className="text-sm text-text-muted">
-                      Positioned within a rapidly expanding global bullion corridor.
+                      Operations and custody positioned within a rapidly expanding global bullion corridor.
                     </p>
                   </div>
 
                   <div className="bg-midnight-50 border border-border rounded-sm p-6">
                     <div className="flex items-center justify-between mb-2">
                       <h4 className="text-lg font-display text-text-primary">
-                        Auxite Teknoloji A.Ş.
+                        Auxite Kıymetli Metaller Ticaret A.Ş.
                       </h4>
                       <span className="px-3 py-1 bg-gold/10 border border-gold/30 text-xs text-gold rounded-sm">
                         Türkiye
                       </span>
                     </div>
                     <p className="text-sm text-text-muted">
-                      Supporting regional market access within a historically significant precious metals economy.
+                      Strategic direction and group oversight within a historically significant precious metals economy.
                     </p>
                   </div>
                 </div>

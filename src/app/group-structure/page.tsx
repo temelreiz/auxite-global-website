@@ -147,10 +147,10 @@ export default function GroupStructurePage() {
                 <div className="flex items-start justify-between mb-6">
                   <div>
                     <p className="text-xs tracking-[0.2em] uppercase text-gold mb-2">
-                      Governance & Strategy
+                      Governance & Platform Development
                     </p>
                     <h3 className="text-2xl font-display text-text-primary">
-                      Auxite Holdings Limited
+                      Aurum Ledger Ltd.
                     </h3>
                   </div>
                   <div className="text-right">
@@ -167,30 +167,33 @@ export default function GroupStructurePage() {
                   </div>
                   <div>
                     <p className="text-xs text-text-faint uppercase tracking-wider mb-1">Established</p>
-                    <p className="text-sm text-text-secondary">2023</p>
+                    <p className="text-sm text-text-secondary">2025</p>
                   </div>
                   <div>
                     <p className="text-xs text-text-faint uppercase tracking-wider mb-1">Function</p>
-                    <p className="text-sm text-text-secondary">Group Governance</p>
+                    <p className="text-sm text-text-secondary">Governance & Platform Development</p>
                   </div>
                 </div>
 
                 <p className="text-text-muted mb-6">
-                  The holding company provides strategic direction, governance oversight,
-                  and coordinates group-wide policies. Hong Kong's common law framework
-                  and established financial infrastructure support institutional governance
-                  standards.
+                  Aurum Ledger provides governance oversight, strategic direction,
+                  and develops the digital infrastructure supporting group operations.
+                  Hong Kong's common law framework and established financial
+                  infrastructure support institutional governance and technology standards.
                 </p>
 
                 <div className="flex flex-wrap gap-2">
                   <span className="px-3 py-1 bg-midnight border border-border text-xs text-text-muted rounded-sm">
-                    Strategic Direction
+                    Governance & Strategy
                   </span>
                   <span className="px-3 py-1 bg-midnight border border-border text-xs text-text-muted rounded-sm">
-                    Policy Coordination
+                    Platform Development
                   </span>
                   <span className="px-3 py-1 bg-midnight border border-border text-xs text-text-muted rounded-sm">
-                    Group Oversight
+                    Security Infrastructure
+                  </span>
+                  <span className="px-3 py-1 bg-midnight border border-border text-xs text-text-muted rounded-sm">
+                    Integration Services
                   </span>
                 </div>
               </div>
@@ -205,7 +208,7 @@ export default function GroupStructurePage() {
                       Operations & Custody
                     </p>
                     <h3 className="text-2xl font-display text-text-primary">
-                      Auxite DMCC
+                      Auxite Precious Metals LLC
                     </h3>
                   </div>
                   <div className="text-right">
@@ -218,34 +221,31 @@ export default function GroupStructurePage() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
                   <div>
                     <p className="text-xs text-text-faint uppercase tracking-wider mb-1">Headquarters</p>
-                    <p className="text-sm text-text-secondary">Dubai Multi Commodities Centre</p>
+                    <p className="text-sm text-text-secondary">Meydan Free Zone, Dubai</p>
                   </div>
                   <div>
                     <p className="text-xs text-text-faint uppercase tracking-wider mb-1">Established</p>
-                    <p className="text-sm text-text-secondary">2023</p>
+                    <p className="text-sm text-text-secondary">2025</p>
                   </div>
                   <div>
                     <p className="text-xs text-text-faint uppercase tracking-wider mb-1">Function</p>
-                    <p className="text-sm text-text-secondary">Precious Metals Operations</p>
+                    <p className="text-sm text-text-secondary">Development & Custody</p>
                   </div>
                 </div>
 
                 <p className="text-text-muted mb-6">
-                  The operational entity manages precious metals custody, client
-                  services, and day-to-day operations. Dubai's position as a global
-                  commodities hub and DMCC's specialized infrastructure provide
+                  The operational entity manages precious metals custody, development,
+                  and day-to-day operations. Dubai's position as a global
+                  commodities hub and Meydan Free Zone's business infrastructure provide
                   optimal conditions for precious metals operations.
                 </p>
 
                 <div className="flex flex-wrap gap-2">
                   <span className="px-3 py-1 bg-midnight border border-border text-xs text-text-muted rounded-sm">
-                    Custody Management
+                    Development
                   </span>
                   <span className="px-3 py-1 bg-midnight border border-border text-xs text-text-muted rounded-sm">
-                    Client Services
-                  </span>
-                  <span className="px-3 py-1 bg-midnight border border-border text-xs text-text-muted rounded-sm">
-                    Operational Execution
+                    Custody
                   </span>
                 </div>
               </div>
@@ -257,10 +257,10 @@ export default function GroupStructurePage() {
                 <div className="flex items-start justify-between mb-6">
                   <div>
                     <p className="text-xs tracking-[0.2em] uppercase text-gold mb-2">
-                      Technology & Development
+                      Strategic Direction
                     </p>
                     <h3 className="text-2xl font-display text-text-primary">
-                      Auxite Teknoloji A.Ş.
+                      Auxite Kıymetli Metaller Ticaret A.Ş.
                     </h3>
                   </div>
                   <div className="text-right">
@@ -281,26 +281,26 @@ export default function GroupStructurePage() {
                   </div>
                   <div>
                     <p className="text-xs text-text-faint uppercase tracking-wider mb-1">Function</p>
-                    <p className="text-sm text-text-secondary">Technology Development</p>
+                    <p className="text-sm text-text-secondary">Strategic Direction & Group Oversight</p>
                   </div>
                 </div>
 
                 <p className="text-text-muted mb-6">
-                  The technology entity develops and maintains the digital
-                  infrastructure supporting group operations. Istanbul's
-                  growing technology ecosystem and engineering talent pool
-                  support continuous platform development.
+                  The strategic entity provides direction, policy coordination,
+                  and group oversight. Istanbul's position as a bridge between
+                  Europe and Asia and its historically significant precious metals
+                  corridor support strategic coordination across the group.
                 </p>
 
                 <div className="flex flex-wrap gap-2">
                   <span className="px-3 py-1 bg-midnight border border-border text-xs text-text-muted rounded-sm">
-                    Platform Development
+                    Strategic Direction
                   </span>
                   <span className="px-3 py-1 bg-midnight border border-border text-xs text-text-muted rounded-sm">
-                    Security Infrastructure
+                    Policy Coordination
                   </span>
                   <span className="px-3 py-1 bg-midnight border border-border text-xs text-text-muted rounded-sm">
-                    Integration Services
+                    Group Oversight
                   </span>
                 </div>
               </div>
