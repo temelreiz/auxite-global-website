@@ -21,6 +21,7 @@ const footerLinks = {
     { label: "Segregated Custody", href: "/solutions#custody" },
     { label: "Structured Allocation", href: "/solutions#allocation" },
     { label: "Institutional Reporting", href: "/solutions#reporting" },
+    { label: "Auxite Vault", href: "https://auxite.io" },
   ],
   resources: [
     { label: "Insights & Research", href: "/insights" },
