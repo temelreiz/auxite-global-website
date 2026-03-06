@@ -52,9 +52,9 @@ export function Footer() {
               <Image
                 src="/images/auxite-logo.png"
                 alt="Auxite Global"
-                width={200}
-                height={60}
-                className="h-14 w-auto"
+                width={320}
+                height={213}
+                className="h-24 w-auto"
               />
             </Link>
 
