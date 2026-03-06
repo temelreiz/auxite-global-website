@@ -45,16 +45,16 @@ export function Footer() {
     <footer className="bg-midnight border-t border-border">
       {/* Main Footer */}
       <div className="container-institutional section">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 lg:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-12 lg:gap-8">
           {/* Brand Column */}
-          <div className="lg:col-span-1">
+          <div className="lg:col-span-2">
             <Link href="/" className="inline-block mb-6">
               <Image
                 src="/images/auxite-logo.png"
                 alt="Auxite Global"
                 width={320}
                 height={213}
-                className="h-24 w-auto"
+                className="h-28 w-auto"
               />
             </Link>
 
