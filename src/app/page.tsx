@@ -228,8 +228,11 @@ export default function HomePage() {
               </p>
             </div>
 
-            {/* Dubai Entity */}
-            <div className="card-institutional">
+            {/* Dubai Entity - On Hold */}
+            <div className="card-institutional relative opacity-60">
+              <div className="absolute top-4 right-4 px-3 py-1 rounded-full text-xs font-medium bg-amber-500/20 text-amber-400 border border-amber-500/30">
+                ⏸ On Hold
+              </div>
               <div className="flex items-start justify-between mb-4">
                 <div>
                   <div className="text-xs tracking-[0.15em] uppercase text-gold mb-2">
@@ -243,20 +246,8 @@ export default function HomePage() {
                 <span className="text-2xl">🇦🇪</span>
               </div>
               <p className="text-text-secondary mb-4">
-                Execution and sourcing hub for investment-grade precious metals.
+                Operations temporarily on hold.
               </p>
-              <div className="text-sm text-text-muted leading-relaxed">
-                <p className="mb-3">Responsibilities include:</p>
-                <ul className="space-y-1 ml-4">
-                  <li>• Institutional sourcing</li>
-                  <li>• Vault coordination</li>
-                  <li>• Logistics oversight</li>
-                  <li>• Wholesale trading relationships</li>
-                </ul>
-                <p className="mt-3">
-                  Dubai provides strategic access to global bullion flows and liquidity corridors.
-                </p>
-              </div>
             </div>
 
             {/* Istanbul Entity */}
@@ -444,18 +435,21 @@ export default function HomePage() {
                 </div>
               </div>
 
-              {/* Dubai */}
-              <div className="card-institutional text-center group hover:border-gold/40 transition-all duration-300">
+              {/* Dubai - On Hold */}
+              <div className="card-institutional text-center relative opacity-60">
+                <div className="absolute top-3 right-3 px-2 py-0.5 rounded-full text-[10px] font-medium bg-amber-500/20 text-amber-400 border border-amber-500/30">
+                  ⏸ On Hold
+                </div>
                 <div className="mb-4">
                   <span className="text-4xl">🇦🇪</span>
                 </div>
-                <h3 className="text-xl font-display text-gold mb-2">Dubai</h3>
-                <p className="text-xs tracking-[0.15em] uppercase text-text-muted mb-4">
+                <h3 className="text-xl font-display text-text-muted mb-2">Dubai</h3>
+                <p className="text-xs tracking-[0.15em] uppercase text-text-faint mb-4">
                   Operations & Custody
                 </p>
                 <div className="border-t border-border pt-4 mt-4">
-                  <p className="text-sm text-text-secondary font-medium">Auxite Precious Metals LLC</p>
-                  <p className="text-xs text-text-faint mt-1">Est. 2025</p>
+                  <p className="text-sm text-text-faint font-medium">Auxite Precious Metals LLC</p>
+                  <p className="text-xs text-text-faint mt-1">On Hold</p>
                 </div>
               </div>
 

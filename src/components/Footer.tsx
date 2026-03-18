@@ -228,23 +228,18 @@ export function Footer() {
       <div className="border-t border-border">
         <div className="container-institutional py-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+            <div className="flex flex-col items-center md:items-start gap-1">
+              <p className="text-xs text-text-faint">
+                Operated by Aurum Ledger Ltd Hong Kong &middot; contact@aurumledger.com
+              </p>
+              <p className="text-xs text-text-faint">
+                Auxite is a product and brand of Aurum Ledger Limited.
+              </p>
+            </div>
+
             <p className="text-xs text-text-faint">
               &copy; {currentYear} Auxite Global. All rights reserved.
             </p>
-
-            <div className="flex items-center gap-6">
-              <span className="text-xs text-text-faint">
-                Institutional Infrastructure
-              </span>
-              <span className="w-1 h-1 rounded-full bg-gold/50"></span>
-              <span className="text-xs text-text-faint">
-                Multi-Entity Architecture
-              </span>
-              <span className="w-1 h-1 rounded-full bg-gold/50"></span>
-              <span className="text-xs text-text-faint">
-                Governance-Led
-              </span>
-            </div>
           </div>
         </div>
       </div>
