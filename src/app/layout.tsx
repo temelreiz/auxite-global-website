@@ -64,7 +64,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://auxiteglobal.com",
+    canonical: "https://auxite.io",
   },
 };
 
