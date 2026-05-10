@@ -17,12 +17,12 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Auxite Global — Institutional Infrastructure for Digital Precious Metals",
-  description: "Governance-led architecture designed to support resilient real-world asset ecosystems. Multi-entity institutional structure built for long-term confidence.",
-  keywords: ["precious metals", "institutional infrastructure", "digital assets", "governance", "gold", "silver", "platinum", "palladium", "auxite", "auxite global", "tokenized metals"],
-  authors: [{ name: "Auxite Global" }],
-  creator: "Auxite Global",
-  publisher: "Auxite Global",
+  title: "Auxite Global — Institutional Infrastructure | Aurum Ledger Limited",
+  description: "Governance-led institutional infrastructure group for digital precious metals. Multi-entity structure designed for resilient real-world asset ecosystems. Operator of the Auxite platform (auxite.io).",
+  keywords: ["auxite global", "aurum ledger limited", "institutional infrastructure", "governance", "digital precious metals", "real world assets", "RWA", "multi-entity holding"],
+  authors: [{ name: "Aurum Ledger Limited" }],
+  creator: "Aurum Ledger Limited",
+  publisher: "Aurum Ledger Limited",
   metadataBase: new URL("https://auxiteglobal.com"),
   icons: {
     icon: [
@@ -31,8 +31,8 @@ export const metadata: Metadata = {
     apple: '/apple-touch-icon.png',
   },
   openGraph: {
-    title: "Auxite Global — Institutional Infrastructure for Digital Precious Metals",
-    description: "Governance-led architecture designed to support resilient real-world asset ecosystems.",
+    title: "Auxite Global — Institutional Infrastructure | Aurum Ledger Limited",
+    description: "Governance-led institutional infrastructure group for digital precious metals. Operator of the Auxite platform (auxite.io).",
     type: "website",
     locale: "en_US",
     url: "https://auxiteglobal.com",
@@ -48,8 +48,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Auxite Global — Institutional Infrastructure for Digital Precious Metals",
-    description: "Governance-led architecture designed to support resilient real-world asset ecosystems.",
+    title: "Auxite Global — Institutional Infrastructure | Aurum Ledger Limited",
+    description: "Governance-led institutional infrastructure group for digital precious metals.",
     images: ["https://auxiteglobal.com/images/auxite-logo.png"],
   },
   robots: {
@@ -63,12 +63,19 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
-  alternates: {
-    canonical: "https://auxite.io",
-  },
+  // Each page is canonical to itself (Next.js default). Do NOT blanket-canonical
+  // to auxite.io — that deindexes auxiteglobal.com entirely, defeating the
+  // corporate-vs-product split. Cross-site relationship is signaled via
+  // sameAs / subOrganization JSON-LD below instead.
 };
 
 // JSON-LD Structured Data — Organization + WebSite
+//
+// Brand-entity model: this site represents the institutional holding
+// (Aurum Ledger Limited / Auxite Global), and explicitly declares the
+// Auxite platform (auxite.io) as a subOrganization. Google uses this
+// to keep the two domains as separate entities — corporate vs product —
+// rather than treating them as duplicate sites.
 const jsonLd = {
   '@context': 'https://schema.org',
   '@graph': [
@@ -76,6 +83,8 @@ const jsonLd = {
       '@type': 'Organization',
       '@id': 'https://auxiteglobal.com/#organization',
       name: 'Auxite Global',
+      legalName: 'Aurum Ledger Limited',
+      alternateName: ['Aurum Ledger', 'Auxite Global Group'],
       url: 'https://auxiteglobal.com',
       logo: {
         '@type': 'ImageObject',
@@ -83,11 +92,22 @@ const jsonLd = {
         width: 512,
         height: 512,
       },
-      description: 'Auxite Global is a governance-led institutional infrastructure group for digital precious metals. Multi-entity structure designed for resilient real-world asset ecosystems.',
+      description: 'Aurum Ledger Limited (Auxite Global) is a governance-led institutional infrastructure group for digital precious metals. Multi-entity structure designed for resilient real-world asset ecosystems.',
+      foundingLocation: {
+        '@type': 'Place',
+        address: { '@type': 'PostalAddress', addressCountry: 'HK' },
+      },
       sameAs: [
-        'https://x.com/auxite',
+        'https://x.com/AuxiteGlobal',
         'https://auxite.io',
       ],
+      subOrganization: {
+        '@type': 'Organization',
+        '@id': 'https://auxite.io/#organization',
+        name: 'Auxite',
+        url: 'https://auxite.io',
+        description: 'Auxite is the digital-asset custody platform operated by Aurum Ledger Limited for tokenized precious metals (gold, silver, platinum, palladium).',
+      },
       contactPoint: {
         '@type': 'ContactPoint',
         contactType: 'institutional inquiries',
