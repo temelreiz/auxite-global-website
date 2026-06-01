@@ -103,6 +103,19 @@ export function Navigation() {
               ))}
             </div>
 
+            {/* Auxite platform — primary CTA; passes brand authority to auxite.io */}
+            <a
+              href="https://auxite.io"
+              target="_blank"
+              rel="noopener"
+              className="hidden lg:flex items-center gap-2 bg-gold text-midnight hover:bg-gold/90 px-5 py-2.5 text-xs font-semibold tracking-wide uppercase transition-all duration-300"
+            >
+              Auxite Platform
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+              </svg>
+            </a>
+
             {/* Institutional Access CTA */}
             <Link
               href="/contact?type=institutional-access"
@@ -157,7 +170,19 @@ export function Navigation() {
             ))}
           </nav>
 
-          <div className="mt-12">
+          <div className="mt-12 flex flex-col gap-4">
+            <a
+              href="https://auxite.io"
+              target="_blank"
+              rel="noopener"
+              onClick={() => setIsMobileMenuOpen(false)}
+              className="flex items-center justify-center gap-2 bg-gold text-midnight hover:bg-gold/90 px-5 py-3 text-sm font-semibold tracking-wide uppercase transition-colors"
+            >
+              Auxite Platform
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+              </svg>
+            </a>
             <Link
               href="/contact"
               onClick={() => setIsMobileMenuOpen(false)}
