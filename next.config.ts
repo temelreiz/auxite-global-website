@@ -7,11 +7,6 @@ import type { NextConfig } from "next";
 // ~95% of accumulated link equity to the new domain, and Google
 // uses it as the canonical merge signal — within a few weeks
 // "auxite" searches surface auxite.io exclusively.
-//
-// Exception: keep /.well-known/* on this domain so any in-flight
-// domain-verification or app-link assertions don't break during
-// the SEO consolidation window. Once we confirm nothing is being
-// served from .well-known here, the carve-out can be removed.
 
 const nextConfig: NextConfig = {
   images: {
@@ -21,7 +16,7 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
-        source: '/:path((?!\\.well-known).*)*',
+        source: '/:path*',
         destination: 'https://auxite.io/:path*',
         permanent: true,
       },
